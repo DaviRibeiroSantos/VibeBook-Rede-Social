@@ -6,58 +6,47 @@
     <link rel="shortcut icon" href="imagens/icone.ico" type="image/x-icon">
     <title>VibeBook.com</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <h1>VibeBook</h1>
     
     <h2>Crie uma conta</h2>
    
-    <label for="usuario">Digite seu usuario: </label>
-   <br> <br> <input required type="text" id="usuario" name="usuario" placeholder="digite aqui...">
-   
-   <p><label for="email">Digite seu email: </label></p>
-   <input required type="email" id="email" name="email" placeholder="digite aqui..." >
 
-   <form id="SenhaFormulaio">
-       
-    <div>
-        <p><label for="senha">Crie uma senha:</label></p>
-           <input required type="password" id="senha"  placeholder="sua senha aqui.." >
-
+    <form id="cadastroForm">
         
-    </div>
-      
-    
-    <div>
-        <p><label for="ConfirmarSenha">Confirme sua senha:</label></p>
-           <input  required type="password" id="ConfirmarSenha"  placeholder="Confirmaçao aqui..">
-    </div>
+        <label for="usuario">Digite seu usuario: </label>
+        <br><br> 
+        <input required type="text" id="usuario" name="usuario" placeholder="digite aqui...">
+       
+        <p><label for="email">Digite seu email: </label></p>
+        <input required type="email" id="email" name="email" placeholder="digite aqui...">
+
+        <div>
+            <p><label for="senha">Crie uma senha:</label></p>
+            <input required type="password" id="senha" name="senha" placeholder="sua senha aqui..">
+        </div>
+          
+        <div>
+            <p><label for="ConfirmarSenha">Confirme sua senha:</label></p>
+            <input required type="password" id="ConfirmarSenha" name="confirmarSenha" placeholder="Confirmação aqui..">
+        </div>
+        
+        <br> 
+
+        <img src="imagens/icone.ico" alt="Logo">
+     
+        <p>
+            <button type="submit">Cadastrar</button>
+        </p>
+        
+    </form>
+
     <br> 
 
-  
-       <img src="imagens/icone.ico" alt="Logo">
-   
-    
-    <p>
-        <button  type="submit">
-        
-               Cadastrar
-        
-            </button>
-        
-    </p>
-   
-</form>
+    <h2>Já possui uma conta?</h2>
+    <h2>Login:</h2>
 
- 
-   <br> 
-
-
-    <h2>Ja possui uma conta?</h2>
-    <h2>login:</h2>
-
-
-
-    
 </body>
 </html>
