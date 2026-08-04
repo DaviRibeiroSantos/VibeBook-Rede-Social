@@ -1,4 +1,4 @@
-const formulario = document.getElementById('cadastroForm');
+const formulario = document.getElementById('CadastroForm');
     const inputEmail = document.getElementById('emailJs');
     const mensagem = document.getElementById('mensagem');
 
