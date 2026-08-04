@@ -5,43 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/icone.ico" type="image/x-icon">
     <title>VibeBook.com</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
-    <h1>VibeBook</h1>
+    <h1>VibeBook</h1> 
+    <h2>Já possui uma conta?</h2>
+    <a href="pag-login.html">Clique aqui para realizar o Login</a>
     
     <h2>Crie uma conta</h2>
-   
+<form id="cadastroForm">
     <label for="usuario">Digite seu usuario: </label>
-   <br> <br> <input type="text" id="usuario" name="usuario" placeholder="digite aqui..." required>
-   
-   <p><label for="email">Digite seu email: </label></p>
-   <input type="email" id="email" name="email" placeholder="digite aqui..." required>
+    <br><br>
+    <input required type="text" id="usuario" name="usuario" placeholder="digite aqui...">
+    
+    <p><label for="email">Digite seu email: </label></p>
+    <input required type="email" id="email" name="email" placeholder="digite aqui...">
 
-   <form id="SenhaFormulaio">
-       
     <div>
         <p><label for="senha">Crie uma senha:</label></p>
-           <input type="password" id="senha"  placeholder="sua senha aqui.." >
-        
+        <input required type="password" id="senha" placeholder="sua senha aqui..">
     </div>
       
     <div>
         <p><label for="ConfirmarSenha">Confirme sua senha:</label></p>
-           <input type="password" id="ConfirmarSenha"  placeholder="Confirmaçao aqui.." required>
+        <input required type="password" id="ConfirmarSenha" placeholder="Confirmaçao aqui..">
     </div>
-    <br><button type="submit">Cadastar</button>
-   
+    <br><button type="submit">Cadastrar</button>
 </form>
 
- 
-   <br> 
 
+        <div>
+            <p><label for="senha">Crie uma senha:</label></p>
+            <input required type="password" id="senha" name="senha" placeholder="sua senha aqui..">
+        </div>
+          
+        <div>
+            <p><label for="ConfirmarSenha">Confirme sua senha:</label></p>
+            <input required type="password" id="ConfirmarSenha" name="confirmarSenha" placeholder="Confirmação aqui..">
+        </div>
+        
+        <br> 
 
-    <h2>Ja possui uma conta?</h2>
-    <h2>login:</h2>
-
-
+        <img src="imagens/icone.ico" alt="Logo">
+     
+        <div class="button">
+            <p>
+                <button type="submit" class="botao1">Cadastrar</button>
+            </p>
+        </div>
+        
+    </form>
 
     
+
 </body>
 </html>
