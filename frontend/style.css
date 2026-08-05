@@ -11,7 +11,7 @@ body{
 
 }
 h1{
-    background-color: #8e9dff;
+    background-color: #e78171d2;
    
     text-align: center;
     font-size: 35px;
@@ -34,10 +34,14 @@ h2{
 
 }
 label{
-    background-color: #8e9dff;
+    
+   color: #3E4B7A; 
+  font-size: 2cap;
+  line-height: 1.6; 
+  margin-bottom: 1.2rem;
 }
 .botao {
-    background-color: rgb(50, 69, 235); 
+    background-color:#F77F6C; 
     color: white;
     padding: 12px 24px;
     font-size: 14px;
@@ -49,7 +53,7 @@ label{
 
 
 .botao:hover {
-    background-color: #5d72ff;
+    background-color: #E06A57;
 }
 
 a{
@@ -59,4 +63,7 @@ a{
 }
 a:hover{
     color: #7083ff;
+}
+input{
+    color: #E06A57;
 }
