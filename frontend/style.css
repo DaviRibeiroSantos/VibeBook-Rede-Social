@@ -1,69 +1,196 @@
+/* Reset básico e Tipografia no estilo Instagram */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-body{
-
-    background-color: rgb(211, 209, 255);
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #dee4ff 100%;
+body {
+    background-color: #fafafa;
+    color: #262626;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     min-height: 100vh;
-    background-attachment: fixed;
-
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
-h1{
-    background-color: #e78171d2;
-   
+
+/* Card Clean do Instagram */
+.card {
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 12px;
+    padding: 32px 40px;
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.brand-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.logo-text {
+    font-size: 28px;
+    font-weight: 600;
+    color: #262626;
+    letter-spacing: -0.5px;
+}
+
+.sub-texto {
+    font-size: 13px;
+    color: #737373;
     text-align: center;
-    font-size: 35px;
-    color: rgb(0, 0, 0);
-    border-radius: 100px;
-    
-    
+    line-height: 1.4;
 }
-input{
-    background-color: rgb(255, 255, 254);
-}
-img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover; 
-    border-radius: 50%; 
-}
-h2{
-     font-size: 23px;
 
+/* Seção do sobre */
+.sobre-rede {
+    width: 100%;
+    background-color: #f8f9fa;
+    border: 1px solid #efefef;
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
-label{
-    
-   color: #3E4B7A; 
-  font-size: 2cap;
-  line-height: 1.6; 
-  margin-bottom: 1.2rem;
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
 }
-.botao {
-    background-color:#F77F6C; 
-    color: white;
-    padding: 12px 24px;
+
+.info-icone {
     font-size: 14px;
-    border: none;
-    border-radius: 6px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
 }
 
+.info-item p {
+    font-size: 12px;
+    color: #555;
+    line-height: 1.3;
+}
+
+/* Formulários e Entradas estilo Instagram */
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.input-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-size: 12px;
+    color: #737373;
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 13px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.input-group input:focus {
+    border-color: #a8a8a8;
+    background-color: #ffffff;
+}
+
+/* Botões com o Azul e contornos do Instagram */
+.acoes-home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.botao {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #0095f6;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 9px 16px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
 
 .botao:hover {
-    background-color: #E06A57;
+    background-color: #1877f2;
+    text-decoration: none;
 }
 
-a{
+.botao-secundario {
+    background-color: transparent;
+    color: #0095f6;
+    border: 1px solid #0095f6;
+}
+
+.botao-secundario:hover {
+    background-color: rgba(0, 149, 246, 0.05);
+}
+
+/* Links secundários */
+.voltar {
+    margin-top: 10px;
+    text-align: center;
+}
+
+a {
+    color: #0095f6;
+    font-size: 13px;
     text-decoration: none;
-    color:  #1837ff;
-    
 }
-a:hover{
-    color: #7083ff;
+
+a:hover {
+    text-decoration: underline;
 }
-input{
-    color: #E06A57;
+
+/* Rodapé em Destaque na PG Principal */
+.creditos-footer {
+    margin-top: 28px;
+    text-align: center;
+    font-size: 13px;
+    color: #737373;
+}
+
+.creditos-footer strong {
+    color: #262626;
+}
+im{
+    size: 3cap;
 }

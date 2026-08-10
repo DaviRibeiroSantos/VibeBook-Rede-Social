@@ -7,48 +7,53 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>VibeBook</h1>
+
+    <!-- Caixa principal que organiza tudo e centraliza no meio da tela -->
+    <div class="card">
+        
+        <h1>VibeBook</h1>
         <h2>Crie uma conta</h2>
-<form id="cadastroForm">
-    <label for="usuario">Digite seu usuario: </label>
-    <br><br>
-    <input required type="text" id="usuario" name="usuario" placeholder="digite aqui...">
-    
-    <p><label for="email">Digite seu email: </label></p>
-    <input required type="email" id="email" name="email" placeholder="digite aqui...">
 
-    <div>
-        <p><label for="senha">Crie uma senha:</label></p>
-        <input required type="password" id="senha" placeholder="sua senha aqui..">
-    </div>
-      
-    <div>
-        <p><label for="ConfirmarSenha">Confirme sua senha:</label></p>
-        <input required type="password" id="ConfirmarSenha" placeholder="Confirmaçao aqui..">
-    </div>
-    
-</form>
+        <form id="cadastroForm">
+            
+            <div class="input-group">
+                <span class="icon">👤</span>
+                <label for="usuario">Digite seu usuário:</label>
+                <input required type="text" id="usuario" name="usuario" placeholder="digite aqui...">
+            </div>
 
+            <div class="input-group">
+                <span class="icon">✉️</span>
+                <label for="email">Digite seu email:</label>
+                <input required type="email" id="email" name="email" placeholder="digite aqui...">
+            </div>
 
-   
+            <div class="input-group">
+                <span class="icon">🔒</span>
+                <label for="senha">Crie uma senha:</label>
+                <input required type="password" id="senha" name="senha" placeholder="sua senha aqui...">
+            </div>
+            
+            <div class="input-group">
+                <span class="icon">🔒</span>
+                <label for="ConfirmarSenha">Confirme sua senha:</label>
+                <input required type="password" id="ConfirmarSenha" name="ConfirmarSenha" placeholder="confirmação aqui...">
+            </div>
+            
+            <div class="button">
+                <button type="submit" class="botao">Cadastrar</button>
+            </div>
+
+        </form>
 
         <img src="imagens/icone.ico" alt="Logo">
-     
-        <div class="button">
-            <p>
-                <button type="submit" class="botao">Cadastrar</button>
-            </p>
+
+        <div class="voltar">
+            <h2>Voltar à Página Principal</h2>
+            <a href="index.html">Clique aqui para ir para a página principal</a>
         </div>
-        
-    </form>
-  <br> <br>
-    <div>
-        <p>
-             <h3>Voltar a Pagina Principal</h3>
-    <a href="index.html">Clique aqui para ir para a pagina Principal<p>
-        </p>
+
     </div>
 
-    
 </body>
-</html>
+</html>s

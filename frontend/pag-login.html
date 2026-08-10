@@ -7,41 +7,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Login</h1>
-    <form id="LoginForm">
 
-        <p><label for="usuario">Digite seu Usuario</label></p>
-        <input required type="text" id="usuario" name="usuario" placeholder="digite aqui...">
+    <!-- Caixa principal que organiza tudo e centraliza no meio da tela -->
+    <div class="card">
+        
+        <h1>Login</h1>
 
-        <p><label for="senha">Digite sua senha</label></p>
-        <input required type="password" id="senha" name="usuario" placeholder="digite aqui...">
+        <form id="LoginForm">
+            <div class="input-group">
+                <span class="icon"></span>
+                <label for="usuario">Digite seu Usuário:</label>
+                <input required type="text" id="usuario" name="usuario" placeholder="digite aqui...">
+            </div>
 
-<br> <br>
-<br>
+            <div class="input-group">
+                <span class="icon"></span>
+                <label for="senha">Digite sua senha:</label>
+                <input required type="password" id="senha" name="senha" placeholder="digite aqui...">
+            </div>
 
-        <div class="button">
-            <p>
-                <button type="submit" class="botao">
-                    Logar
+            <div class="button">
+                <button type="submit" class="botao">Logar</button>
+            </div>
+        </form>
 
+        <img src="imagens/icone.ico" alt="Ícone">
 
-                </button>
-
-            </p>
-
-
-
+        <div class="voltar">
+            <h2>Voltar à Página Principal</h2>
+            <a href="index.html">Clique aqui para ir para a página principal</a>
         </div>
 
-    </form>
-<br><br>
-    <img src="imagens/icone.ico" alt="Icone">
+    </div>
 
-  <p>
-  <br> <br>  <h3>Voltar a Pagina Principal</h3>
-    <a href="index.html">Clique aqui para ir para a pagina Principal
-
-    </a>
-  </p>
 </body>
 </html>
